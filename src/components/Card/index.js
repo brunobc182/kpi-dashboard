@@ -4,9 +4,9 @@ import PropTypes from "prop-types";
 
 const Wrapper = styled.div`
   width: 100%;
-  max-width: 200px;
+  max-width: 300px;
   background-color: ${({ bgColor }) => bgColor};
-  padding: 24px;
+  padding: 40px;
 `;
 
 const Title = styled.h4`
