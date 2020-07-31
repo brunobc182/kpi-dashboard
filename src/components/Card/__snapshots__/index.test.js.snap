@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card renders correctly 1`] = `
+<div>
+  <div
+    class="sc-AxjAm hhglcc"
+  >
+    <h4
+      class="sc-AxirZ ddxAos"
+    >
+      Card title
+    </h4>
+    <p
+      class="sc-AxiKw fhzMTD"
+    >
+      20
+    </p>
+    <span
+      class="sc-AxhCb kbojYk"
+    >
+      30 Last period
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Card renders correctly with default values 1`] = `
+<div>
+  <div
+    class="sc-AxjAm hhglcc"
+  >
+    <h4
+      class="sc-AxirZ ddxAos"
+    >
+      Card title
+    </h4>
+    <p
+      class="sc-AxiKw fhzMTD"
+    >
+      20
+    </p>
+    <span
+      class="sc-AxhCb kbojYk"
+    >
+      30 Last period
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Card renders correctly with given props 1`] = `
+<div>
+  <div
+    class="sc-AxjAm dxEya-d"
+  >
+    <h4
+      class="sc-AxirZ ddxAos"
+    >
+      Active sourcing
+    </h4>
+    <p
+      class="sc-AxiKw fhzMTD"
+    >
+      10
+    </p>
+    <span
+      class="sc-AxhCb kbojYk"
+    >
+      15 Last period
+    </span>
+  </div>
+</div>
+`;
