@@ -3,7 +3,7 @@
 exports[`Card renders correctly 1`] = `
 <div>
   <div
-    class="sc-AxjAm hhglcc"
+    class="sc-AxjAm jNCnMX"
   >
     <h4
       class="sc-AxirZ ddxAos"
@@ -27,7 +27,7 @@ exports[`Card renders correctly 1`] = `
 exports[`Card renders correctly with default values 1`] = `
 <div>
   <div
-    class="sc-AxjAm hhglcc"
+    class="sc-AxjAm jNCnMX"
   >
     <h4
       class="sc-AxirZ ddxAos"
@@ -51,7 +51,7 @@ exports[`Card renders correctly with default values 1`] = `
 exports[`Card renders correctly with given props 1`] = `
 <div>
   <div
-    class="sc-AxjAm dxEya-d"
+    class="sc-AxjAm cjjtpK"
   >
     <h4
       class="sc-AxirZ ddxAos"
