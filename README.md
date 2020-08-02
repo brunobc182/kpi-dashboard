@@ -1,5 +1,57 @@
 # KPI Dashboard
 
+A KPI dashboard to easily track your goals.
+
+## Requirements
+
+- NodeJS v12.16.1 or higher.
+
+## How to use
+
+To use the application you need to clone this repository and install all dependencies. Follow the steps below:
+
+```bash
+git clone git@github.com:brunobc182/kpi-dashboard.git
+cd kpi-dashboard
+yarn install
+```
+
+And to run it execute:
+
+```bash
+yarn start
+```
+
+## Production version
+
+To build a production version, just execute:
+
+```bash
+yarn build
+```
+
+## Run tests
+
+```bash
+yarn test
+```
+
+## Stack
+
+This project was created using [Create React App](https://create-react-app.dev/docs/getting-started/), but we can name some of the main dependencies:
+
+- [React](https://reactjs.org/)
+- [Jest](https://jestjs.io/)
+- [styled-components](https://www.styled-components.com/)
+- [react-testing-library](https://testing-library.com/docs/react-testing-library/intro)
+- [axios](https://github.com/axios/axios)
+
+## Next steps
+
+- Create a service to use axios across the application
+- Create E2E tests with [Cypress](https://www.cypress.io/)
+- Developing a feature to see the details of a KPI
+
 ## License
 
 [MIT](https://github.com/brunobc182/financial-transactions/blob/master/LICENSE)
