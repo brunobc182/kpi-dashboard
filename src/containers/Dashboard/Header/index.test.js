@@ -1,17 +1,10 @@
 import "@testing-library/jest-dom";
 import React from "react";
-import {
-  render,
-  cleanup,
-  waitFor,
-  fireEvent,
-  screen,
-} from "@testing-library/react";
+import { render, cleanup, waitFor, fireEvent } from "@testing-library/react";
 import { act } from "react-dom/test-utils";
 
 import Header from "./";
 import axiosMock from "axios";
-import { Filter } from "../../../components";
 
 afterEach(() => {
   cleanup();
