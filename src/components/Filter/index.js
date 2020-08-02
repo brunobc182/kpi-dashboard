@@ -17,16 +17,20 @@ const Select = styled.select`
 
 const Option = styled.option``;
 
-function Filter({ options, handleChange }) {
+function Filter({ options, testeId, selectectValue, handleChange }) {
   return (
     <Wrapper>
       {options.length !== 0 ? (
         <>
           <Label>Filter by</Label>
-          <Select onChange={handleChange}>
+          <Select
+            data-testid={testeId}
+            value={selectectValue}
+            onChange={handleChange}
+          >
             {options.map((option) => (
-              <Option key={option.time_unit} value={JSON.stringify(option)}>
-                {option.time_unit}
+              <Option key={option.value} value={option.value}>
+                {option.text}
               </Option>
             ))}
           </Select>
@@ -46,11 +50,15 @@ Filter.propTypes = {
     })
   ),
   handleChange: PropTypes.func,
+  selectectValue: PropTypes.any,
+  testId: PropTypes.string,
 };
 
 Filter.defaultProps = {
   options: [],
   handleChange: () => {},
+  selectectValue: "selectedValue",
+  testId: "filterId",
 };
 
 export default Filter;

@@ -15,28 +15,16 @@ exports[`Filter renders correctly 1`] = `
     >
       <option
         class="sc-AxhCb ccMvAG"
-        value="{\\"time_unit\\":\\"WEEK\\",\\"time_unit_count\\":1}"
-      >
-        WEEK
-      </option>
+      />
       <option
         class="sc-AxhCb ccMvAG"
-        value="{\\"time_unit\\":\\"MONTH\\",\\"time_unit_count\\":1}"
-      >
-        MONTH
-      </option>
+      />
       <option
         class="sc-AxhCb ccMvAG"
-        value="{\\"time_unit\\":\\"QUARTER\\",\\"time_unit_count\\":1}"
-      >
-        QUARTER
-      </option>
+      />
       <option
         class="sc-AxhCb ccMvAG"
-        value="{\\"time_unit\\":\\"YEAR\\",\\"time_unit_count\\":1}"
-      >
-        YEAR
-      </option>
+      />
     </select>
   </div>
 </div>
@@ -48,48 +36,6 @@ exports[`Filter renders correctly with no options supplied 1`] = `
     class="sc-AxjAm cDRgMX"
   >
     There is no option to filter
-  </div>
-</div>
-`;
-
-exports[`Filter selects an option correctly 1`] = `
-<div>
-  <div
-    class="sc-AxjAm cDRgMX"
-  >
-    <label
-      class="sc-AxirZ hAQDsX"
-    >
-      Filter by
-    </label>
-    <select
-      class="sc-AxiKw gFeCTU"
-    >
-      <option
-        class="sc-AxhCb ccMvAG"
-        value="{\\"time_unit\\":\\"WEEK\\",\\"time_unit_count\\":1}"
-      >
-        WEEK
-      </option>
-      <option
-        class="sc-AxhCb ccMvAG"
-        value="{\\"time_unit\\":\\"MONTH\\",\\"time_unit_count\\":1}"
-      >
-        MONTH
-      </option>
-      <option
-        class="sc-AxhCb ccMvAG"
-        value="{\\"time_unit\\":\\"QUARTER\\",\\"time_unit_count\\":1}"
-      >
-        QUARTER
-      </option>
-      <option
-        class="sc-AxhCb ccMvAG"
-        value="{\\"time_unit\\":\\"YEAR\\",\\"time_unit_count\\":1}"
-      >
-        YEAR
-      </option>
-    </select>
   </div>
 </div>
 `;
