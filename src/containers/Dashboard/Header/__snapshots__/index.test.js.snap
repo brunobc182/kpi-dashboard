@@ -1,0 +1,211 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header fetches data and renders correctly 1`] = `
+<div>
+  <div
+    class="sc-AxmLO iyRexG"
+  >
+    <span
+      class="sc-fzpans iEVhKc"
+      data-testid="loading"
+    >
+      Loading data...
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Header fetches data and renders correctly 2`] = `
+<div>
+  <div
+    class="sc-AxmLO iyRexG"
+  >
+    <div
+      class="sc-fzozJi dAOuLO"
+    >
+      <div
+        class="sc-AxhUy fZKojx"
+      >
+        <label
+          class="sc-AxgMl kIvMdY"
+        >
+          Filter by
+        </label>
+        <select
+          class="sc-AxheI dsyBVN"
+          data-testid="filter"
+        >
+          <option
+            class="sc-Axmtr hBVTto"
+            value="WEEK"
+          >
+            WEEK
+          </option>
+          <option
+            class="sc-Axmtr hBVTto"
+            value="MONTH"
+          >
+            MONTH
+          </option>
+          <option
+            class="sc-Axmtr hBVTto"
+            value="QUARTER"
+          >
+            QUARTER
+          </option>
+          <option
+            class="sc-Axmtr hBVTto"
+            value="YEAR"
+          >
+            YEAR
+          </option>
+        </select>
+      </div>
+    </div>
+    <div
+      class="sc-fzoLsD iftClW"
+      data-testid="cards"
+    >
+      <div
+        class="sc-AxjAm DRPBt"
+      >
+        <h4
+          class="sc-AxirZ ddxAos"
+        >
+          Active sourcing
+        </h4>
+        <p
+          class="sc-AxiKw fhzMTD"
+        >
+          45
+        </p>
+        <span
+          class="sc-AxhCb kbojYk"
+        >
+          30 Last period
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Header fetches data and renders correctly 3`] = `<div />`;
+
+exports[`Header shows an error message when fetch data with a failed status 1`] = `
+<div>
+  <div
+    class="sc-AxmLO iyRexG"
+  >
+    <div
+      class="sc-fzozJi dAOuLO"
+    >
+      <div
+        class="sc-AxhUy fZKojx"
+      >
+        <label
+          class="sc-AxgMl kIvMdY"
+        >
+          Filter by
+        </label>
+        <select
+          class="sc-AxheI dsyBVN"
+          data-testid="filter"
+        >
+          <option
+            class="sc-Axmtr hBVTto"
+            value="WEEK"
+          >
+            WEEK
+          </option>
+          <option
+            class="sc-Axmtr hBVTto"
+            value="MONTH"
+          >
+            MONTH
+          </option>
+          <option
+            class="sc-Axmtr hBVTto"
+            value="QUARTER"
+          >
+            QUARTER
+          </option>
+          <option
+            class="sc-Axmtr hBVTto"
+            value="YEAR"
+          >
+            YEAR
+          </option>
+        </select>
+      </div>
+    </div>
+    <span
+      class="sc-fzplWN jFvDHN"
+      data-testid="error"
+    >
+      An error occurred when fetch the cards list, please try again.
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Header shows an error message when fetch data with a failed status 2`] = `<div />`;
+
+exports[`Header shows an error message when promise gets rejected 1`] = `
+<div>
+  <div
+    class="sc-AxmLO iyRexG"
+  >
+    <div
+      class="sc-fzozJi dAOuLO"
+    >
+      <div
+        class="sc-AxhUy fZKojx"
+      >
+        <label
+          class="sc-AxgMl kIvMdY"
+        >
+          Filter by
+        </label>
+        <select
+          class="sc-AxheI dsyBVN"
+          data-testid="filter"
+        >
+          <option
+            class="sc-Axmtr hBVTto"
+            value="WEEK"
+          >
+            WEEK
+          </option>
+          <option
+            class="sc-Axmtr hBVTto"
+            value="MONTH"
+          >
+            MONTH
+          </option>
+          <option
+            class="sc-Axmtr hBVTto"
+            value="QUARTER"
+          >
+            QUARTER
+          </option>
+          <option
+            class="sc-Axmtr hBVTto"
+            value="YEAR"
+          >
+            YEAR
+          </option>
+        </select>
+      </div>
+    </div>
+    <span
+      class="sc-fzplWN jFvDHN"
+      data-testid="error"
+    >
+      An error occurred when fetch the cards list, please try again.
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Header shows an error message when promise gets rejected 2`] = `<div />`;
