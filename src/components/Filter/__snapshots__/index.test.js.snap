@@ -3,15 +3,15 @@
 exports[`Filter renders correctly 1`] = `
 <div>
   <div
-    class="sc-AxjAm cDRgMX"
+    class="sc-AxjAm iEFAbG"
   >
     <label
-      class="sc-AxirZ hAQDsX"
+      class="sc-AxirZ hriSXr"
     >
       Filter by
     </label>
     <select
-      class="sc-AxiKw gFeCTU"
+      class="sc-AxiKw bJukMX"
     >
       <option
         class="sc-AxhCb ccMvAG"
@@ -33,7 +33,7 @@ exports[`Filter renders correctly 1`] = `
 exports[`Filter renders correctly with no options supplied 1`] = `
 <div>
   <div
-    class="sc-AxjAm cDRgMX"
+    class="sc-AxjAm iEFAbG"
   >
     There is no option to filter
   </div>
