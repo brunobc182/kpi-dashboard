@@ -16,15 +16,20 @@ const Container = styled.div`
 
 const FilterWrapper = styled.div`
   display: flex;
-  align-self: flex-end;
+  align-self: center;
+
+  @media ${DEVICE.TABLET} {
+    align-self: flex-end;
+  }
 `;
 
 const CardsWrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
 
-  @media ${DEVICE.LAPTOP} {
+  @media ${DEVICE.TABLET} {
     flex-direction: row;
   }
 `;
