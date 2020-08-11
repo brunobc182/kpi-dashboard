@@ -1,6 +1,14 @@
 # KPI Dashboard
 
-A KPI dashboard to easily track your goals.
+**A KPI dashboard to easily track your goals**
+
+![Netlify Status](https://api.netlify.com/api/v1/badges/3cf12008-1695-4d36-be1e-54230b12a0d6/deploy-status)
+
+![Node.js CI](https://github.com/brunobc182/kpi-dashboard/workflows/Node.js%20CI/badge.svg)
+
+## Live version
+
+You can check it out with a live version https://kpidashboard.netlify.app/.
 
 ## Requirements
 
@@ -34,6 +42,24 @@ yarn build
 
 ```bash
 yarn test
+```
+
+## Project strucuture
+
+Inside `src` folder you have our mains folders, `components`, `contaniers` and `theme`. In `components` folder you can add your reusable components, like a `<Title />` for instance. In other hand, the `containers` folder you put you statefull components or main views of the app, `Dashboard` for instance. On `theme` folder you can add everything about our common app style. For example, you can add the mair colors of ou app.
+
+```bash
+| src
+	| components
+		| MyComponent
+			index.js
+			index.test.js
+	| containers
+		| MyPage
+			index.js
+			index.test.js
+	| theme
+		index.js
 ```
 
 ## Stack
