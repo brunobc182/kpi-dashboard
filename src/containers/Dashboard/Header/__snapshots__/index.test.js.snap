@@ -21,18 +21,18 @@ exports[`Header fetches data and renders correctly 2`] = `
     class="sc-AxmLO iyRexG"
   >
     <div
-      class="sc-fzozJi dAOuLO"
+      class="sc-fzozJi csyUvS"
     >
       <div
-        class="sc-AxhUy fZKojx"
+        class="sc-AxhUy cuOvzs"
       >
         <label
-          class="sc-AxgMl kIvMdY"
+          class="sc-AxgMl fxzWMk"
         >
           Filter by
         </label>
         <select
-          class="sc-AxheI dsyBVN"
+          class="sc-AxheI dXBtZm"
           data-testid="filter"
         >
           <option
@@ -63,24 +63,24 @@ exports[`Header fetches data and renders correctly 2`] = `
       </div>
     </div>
     <div
-      class="sc-fzoLsD iftClW"
+      class="sc-fzoLsD kiZmwC"
       data-testid="cards"
     >
       <div
-        class="sc-AxjAm DRPBt"
+        class="sc-AxjAm gFsvqn"
       >
         <h4
-          class="sc-AxirZ ddxAos"
+          class="sc-AxirZ jfgKYb"
         >
           Active sourcing
         </h4>
         <p
-          class="sc-AxiKw fhzMTD"
+          class="sc-AxiKw jIhbQX"
         >
           45
         </p>
         <span
-          class="sc-AxhCb kbojYk"
+          class="sc-AxhCb gbPKbT"
         >
           30 Last period
         </span>
@@ -98,18 +98,18 @@ exports[`Header shows an error message when fetch data with a failed status 1`] 
     class="sc-AxmLO iyRexG"
   >
     <div
-      class="sc-fzozJi dAOuLO"
+      class="sc-fzozJi csyUvS"
     >
       <div
-        class="sc-AxhUy fZKojx"
+        class="sc-AxhUy cuOvzs"
       >
         <label
-          class="sc-AxgMl kIvMdY"
+          class="sc-AxgMl fxzWMk"
         >
           Filter by
         </label>
         <select
-          class="sc-AxheI dsyBVN"
+          class="sc-AxheI dXBtZm"
           data-testid="filter"
         >
           <option
@@ -157,18 +157,18 @@ exports[`Header shows an error message when promise gets rejected 1`] = `
     class="sc-AxmLO iyRexG"
   >
     <div
-      class="sc-fzozJi dAOuLO"
+      class="sc-fzozJi csyUvS"
     >
       <div
-        class="sc-AxhUy fZKojx"
+        class="sc-AxhUy cuOvzs"
       >
         <label
-          class="sc-AxgMl kIvMdY"
+          class="sc-AxgMl fxzWMk"
         >
           Filter by
         </label>
         <select
-          class="sc-AxheI dsyBVN"
+          class="sc-AxheI dXBtZm"
           data-testid="filter"
         >
           <option
