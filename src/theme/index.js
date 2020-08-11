@@ -4,6 +4,10 @@ export const COLORS = {
   POMEGRANATE: "#F34723",
   BLUE_RIBBON: "#0066FF",
   JADE: "#00A86B",
+  COD_GRAY: "#0B0B0B",
+  CORNFLOWER_BLUE: "#6495ED",
+  BRINK_PINK: "#FB607F",
+  PASTEL_GREEN: "#77DD77",
 };
 
 const SIZE = {

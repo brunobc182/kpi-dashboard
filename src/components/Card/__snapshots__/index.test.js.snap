@@ -3,20 +3,20 @@
 exports[`Card renders correctly 1`] = `
 <div>
   <div
-    class="sc-AxjAm jNCnMX"
+    class="sc-AxjAm edVsdc"
   >
     <h4
-      class="sc-AxirZ ddxAos"
+      class="sc-AxirZ jfgKYb"
     >
       Card title
     </h4>
     <p
-      class="sc-AxiKw fhzMTD"
+      class="sc-AxiKw jIhbQX"
     >
       20
     </p>
     <span
-      class="sc-AxhCb kbojYk"
+      class="sc-AxhCb gbPKbT"
     >
       30 Last period
     </span>
@@ -27,20 +27,20 @@ exports[`Card renders correctly 1`] = `
 exports[`Card renders correctly with default values 1`] = `
 <div>
   <div
-    class="sc-AxjAm jNCnMX"
+    class="sc-AxjAm edVsdc"
   >
     <h4
-      class="sc-AxirZ ddxAos"
+      class="sc-AxirZ jfgKYb"
     >
       Card title
     </h4>
     <p
-      class="sc-AxiKw fhzMTD"
+      class="sc-AxiKw jIhbQX"
     >
       20
     </p>
     <span
-      class="sc-AxhCb kbojYk"
+      class="sc-AxhCb gbPKbT"
     >
       30 Last period
     </span>
@@ -51,20 +51,20 @@ exports[`Card renders correctly with default values 1`] = `
 exports[`Card renders correctly with given props 1`] = `
 <div>
   <div
-    class="sc-AxjAm cjjtpK"
+    class="sc-AxjAm HEZee"
   >
     <h4
-      class="sc-AxirZ ddxAos"
+      class="sc-AxirZ jfgKYb"
     >
       Active sourcing
     </h4>
     <p
-      class="sc-AxiKw fhzMTD"
+      class="sc-AxiKw jIhbQX"
     >
       10
     </p>
     <span
-      class="sc-AxhCb kbojYk"
+      class="sc-AxhCb gbPKbT"
     >
       15 Last period
     </span>

@@ -1,27 +1,50 @@
 import React from "react";
 import styled from "styled-components";
 import PropTypes from "prop-types";
+import { COLORS, DEVICE } from "../../theme";
 
 const Wrapper = styled.div`
-  width: 100%;
   max-width: 300px;
-  background-color: ${({ bgColor }) => bgColor};
+  width: 100%;
+  background: radial-gradient(
+      circle at 100% 50px,
+      rgba(255, 255, 255, 0.3) 0%,
+      rgba(255, 255, 255, 0.3) 20%,
+      transparent 10%
+    ),
+    radial-gradient(
+      circle at 250px 150px,
+      rgba(255, 255, 255, 0.3) 0%,
+      rgba(255, 255, 255, 0.3) 30%,
+      transparent 10%
+    ),
+    ${({ bgColor }) => bgColor};
   padding: 40px;
+  border-radius: 4px;
+  margin: 16px;
+
+  @media ${DEVICE.TABLET} {
+    &:last-child {
+      margin-right: 0;
+    }
+  }
 `;
 
 const Title = styled.h4`
-  color: #ffffff;
+  color: ${COLORS.WHITE};
   margin: 0;
   font-weight: 500;
 `;
+
 const CurrentPeriod = styled.p`
-  color: #ffffff;
+  color: ${COLORS.WHITE};
   margin: 16px 0;
-  font-size: 28px;
+  font-size: 32px;
   font-weight: 700;
 `;
+
 const LastPeriod = styled.span`
-  color: #ffffff;
+  color: ${COLORS.WHITE};
   margin: 0;
 `;
 
@@ -46,7 +69,7 @@ Card.defaultProps = {
   title: "Card title",
   currentPeriod: 20,
   lastPeriod: 30,
-  bgColor: "#0a0a0a",
+  bgColor: `${COLORS.COD_GRAY}`,
 };
 
 export default Card;
