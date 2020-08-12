@@ -2,9 +2,7 @@
 
 **A KPI dashboard to easily track your goals**
 
-![Netlify Status](https://api.netlify.com/api/v1/badges/3cf12008-1695-4d36-be1e-54230b12a0d6/deploy-status)
-
-![Node.js CI](https://github.com/brunobc182/kpi-dashboard/workflows/Node.js%20CI/badge.svg)
+![Netlify Status](https://api.netlify.com/api/v1/badges/3cf12008-1695-4d36-be1e-54230b12a0d6/deploy-status) ![Node.js CI](https://github.com/brunobc182/kpi-dashboard/workflows/Node.js%20CI/badge.svg)
 
 ## Live version
 
@@ -32,7 +30,7 @@ yarn start
 
 ## Components Preview
 
-On developement you can use or preview the components on [storybook](https://storybook.js.org/). You just need to run
+On development you can use or preview the components with [storybook](https://storybook.js.org/). You just need to run
 `yarn storybook` and access `http://localhost:6006/` on browser.
 
 ## Production version
@@ -51,24 +49,24 @@ yarn test
 
 ## Project strucuture
 
-Inside `src` folder you have our mains folders, `components`, `contaniers` and `theme`. In `components` folder you can add your reusable components, like a `<Title />` for instance. In other hand, the `containers` folder you put you statefull components or main views of the app, `Dashboard` for instance. On `theme` folder you can add everything about our common app style. For example, you can add the mair colors of ou app.
+Inside `src` folder you have our mains folders, `components`, `contaniers` and `theme`. In `components` folder you can add your reusable components, like a `<Title />`, for instance. In other hand, the `containers` folder you put you statefull components or main views of the app, `Dashboard`, for instance. On `theme` folder you can add everything about our common app style. For example, you can add the main colors used on it.
 
 The component have three main files, `index.js` where is declared and developed, `index.test.js` for unit test and `index.stories.js` for
-storybook.
+storybook visualization.
 
 ```bash
 | src
-	| components
-		| MyComponent
-			index.js
-			index.test.js
-			index.stories.js
-	| containers
-		| MyPage
-			index.js
-			index.test.js
-	| theme
-		index.js
+  | components
+    | MyComponent
+      index.js
+      index.test.js
+      index.stories.js
+  | containers
+    | MyPage
+      index.js
+      index.test.js
+  | theme
+    index.js
 ```
 
 ## Stack
