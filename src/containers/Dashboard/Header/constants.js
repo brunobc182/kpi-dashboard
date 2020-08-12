@@ -1,5 +1,11 @@
 import { COLORS } from "../../../theme";
 
+/**
+ * Represents the card title and bgColor props
+ *
+ * @constant
+ * @type {object}.
+ */
 export const CARD_CONFIG = {
   active_source: {
     bgColor: `linear-gradient(120deg, ${COLORS.BRINK_PINK} 0%, ${COLORS.POMEGRANATE} 40%)`,
@@ -15,6 +21,13 @@ export const CARD_CONFIG = {
     title: "NPS",
   },
 };
+
+/**
+ * Represents the filter optins
+ *
+ * @constant
+ * @type {object}.
+ */
 
 export const FILTER_OPTIONS = [
   {

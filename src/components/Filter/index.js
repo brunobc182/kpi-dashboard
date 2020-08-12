@@ -31,6 +31,29 @@ const Select = styled.select`
 
 const Option = styled.option``;
 
+/**
+ * Represents the component Filter.
+ *
+ * @param {array} options - The options that will be render in select, it
+ * need to be an array of objects with 'value' and 'text' keys. If the options
+ * has length 0, a message will be render instead.
+ * @example
+ * [
+ *  {
+ *    value: "MONTH"
+ *    text: "This month"
+ *  },
+ * {
+ *    value: "YEAR"
+ *    text: "This year"
+ *  }
+ * ]
+ *
+ * @param {string} testeId - The helping props for tests purposes.
+ * @param {any} selectectValue - The flter selected value.
+ * @param {function} handleChange - The function to handle select onChange.
+ */
+
 function Filter({ options, testeId, selectectValue, handleChange }) {
   return (
     <Wrapper>

@@ -1,3 +1,9 @@
+/**
+ * Represents all colors used on app
+ *
+ * @constant
+ * @type {object}.
+ */
 export const COLORS = {
   SCARLET: "#FF2400",
   WHITE: "#FFFFFF",
@@ -10,6 +16,12 @@ export const COLORS = {
   PASTEL_GREEN: "#77DD77",
 };
 
+/**
+ * Represents the sizes of screens
+ *
+ * @constant
+ * @type {object}.
+ */
 const SIZE = {
   MOBILE_SMALL: 320,
   MOBILE_MEDIUM: 375,
@@ -19,6 +31,14 @@ const SIZE = {
   DESKTOP: 1440,
   DESKTOP_LARGE: 2560,
 };
+
+/**
+ * Represents the media queries use on CSS to handle
+ * screen size
+ *
+ * @constant
+ * @type {object}.
+ */
 
 export const DEVICE = {
   MOBILE_SMALL: `(min-width: ${SIZE.MOBILE_SMALL}px)`,

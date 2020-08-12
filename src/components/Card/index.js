@@ -3,6 +3,13 @@ import styled from "styled-components";
 import PropTypes from "prop-types";
 import { COLORS, DEVICE } from "../../theme";
 
+/**
+ * This styled components is responsible for our main
+ * card style. The property background allow us to
+ * make the two circles working according of our
+ * design specs.
+ */
+
 const Wrapper = styled.div`
   max-width: 300px;
   width: 100%;
@@ -48,6 +55,14 @@ const LastPeriod = styled.span`
   margin: 0;
 `;
 
+/**
+ * Represents the component Card.
+ *
+ * @param {string} title - The title of the card.
+ * @param {number} currentPeriod - The current period of the card.
+ * @param {number} lastPeriod - The lastPeriod of the card.
+ * @param {string} bgColor - Thhe main color of card background.
+ */
 function Card({ title, currentPeriod, lastPeriod, bgColor, ...props }) {
   return (
     <Wrapper bgColor={bgColor}>

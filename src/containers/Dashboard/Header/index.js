@@ -42,6 +42,25 @@ const ErrorMessage = styled.span`
   color: ${COLORS.SCARLET};
 `;
 
+/**
+ * Represents a helping function to parse
+ * filter options to the right format.
+ *
+ * @param {array} options - The current date to show on filter options.
+ *
+ * @returns {array} - Returns the corret format.
+ * @example
+ * [
+ *  {
+ *    value: "MONTH"
+ *    text: "This month"
+ *  },
+ * {
+ *    value: "YEAR"
+ *    text: "This year"
+ *  }
+ * ]
+ */
 function parseFilterOptions(options) {
   let tempOptions = [];
 
@@ -55,6 +74,17 @@ function parseFilterOptions(options) {
   return tempOptions;
 }
 
+/**
+ * Represents the Header container where Card and Filter components
+ * are rendered.
+ *
+ * @constant {string, number} selectectFilter - The current selected filter on Filter component
+ * @constant {array} cardsData - The cards API response
+ * @constant {boolean} cardsListError - The control of card list error feedback
+ * @constant {boolean} isLoading - The control of card list loading message when data is fetching
+ * @constant {Object} requestPayload - The payload for cards API request
+ */
+
 function Header() {
   const [selectectFilter, setSelectedFilter] = React.useState("MONTH");
   const [cardsData, setCardsData] = React.useState(null);
@@ -67,6 +97,10 @@ function Header() {
 
   const filterOptions = parseFilterOptions(FILTER_OPTIONS);
 
+  /**
+   * Handles the filter onChange
+   * @param {object} event - The value of selected options
+   */
   function handleFilterChange(event) {
     const currentFilter = event.target.value;
     const currentPayload = FILTER_OPTIONS.filter(
@@ -76,7 +110,16 @@ function Header() {
     setSelectedFilter(currentFilter);
     setRequestPayload(...currentPayload);
   }
-
+  /**
+   * Handles the card data fetching. When it starts to fecht data
+   * isLoading is seted to true and the loading message
+   * is rendered when the requests is completed, isLoading is seted
+   * to false redering the component. If requests was done successfully
+   * the Card list is rendered, if not, the error message will be.
+   *
+   * If responses have a different status of ok, it sets an error.
+   * @param  {object} requestPayload - The payload for cards API request
+   */
   async function fetchData(requestPayload) {
     setIsLoading(true);
 
