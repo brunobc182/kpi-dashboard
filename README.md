@@ -30,6 +30,11 @@ And to run it execute:
 yarn start
 ```
 
+## Components Preview
+
+On developement you can use or preview the components on [storybook](https://storybook.js.org/). You just need to run
+`yarn storybook` and access `http://localhost:6006/` on browser.
+
 ## Production version
 
 To build a production version, just execute:
@@ -48,12 +53,16 @@ yarn test
 
 Inside `src` folder you have our mains folders, `components`, `contaniers` and `theme`. In `components` folder you can add your reusable components, like a `<Title />` for instance. In other hand, the `containers` folder you put you statefull components or main views of the app, `Dashboard` for instance. On `theme` folder you can add everything about our common app style. For example, you can add the mair colors of ou app.
 
+The component have three main files, `index.js` where is declared and developed, `index.test.js` for unit test and `index.stories.js` for
+storybook.
+
 ```bash
 | src
 	| components
 		| MyComponent
 			index.js
 			index.test.js
+			index.stories.js
 	| containers
 		| MyPage
 			index.js
@@ -71,12 +80,14 @@ This project was created using [Create React App](https://create-react-app.dev/d
 - [styled-components](https://www.styled-components.com/)
 - [react-testing-library](https://testing-library.com/docs/react-testing-library/intro)
 - [axios](https://github.com/axios/axios)
+- [storybook](https://storybook.js.org/)
 
 ## Next steps
 
 - Create a service to use axios across the application
 - Create E2E tests with [Cypress](https://www.cypress.io/)
 - Developing a feature to see the details of a KPI
+- Improve the use of Storybook
 
 ## License
 

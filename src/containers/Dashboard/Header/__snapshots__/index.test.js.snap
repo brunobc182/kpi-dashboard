@@ -67,7 +67,7 @@ exports[`Header fetches data and renders correctly 2`] = `
       data-testid="cards"
     >
       <div
-        class="sc-AxjAm gFsvqn"
+        class="sc-AxjAm chaqBE"
       >
         <h4
           class="sc-AxirZ jfgKYb"

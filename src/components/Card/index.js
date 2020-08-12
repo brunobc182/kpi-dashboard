@@ -11,6 +11,7 @@ import { COLORS, DEVICE } from "../../theme";
  */
 
 const Wrapper = styled.div`
+  box-sizing: border-box;
   max-width: 300px;
   width: 100%;
   background: radial-gradient(
